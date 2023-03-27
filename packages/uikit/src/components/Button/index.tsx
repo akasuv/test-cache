@@ -1,1 +1,3 @@
-export { default as Button } from "./Button";
+const Button = ({ children }: any) => <button>{children}</button>;
+
+export default Button;
